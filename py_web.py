@@ -25,6 +25,8 @@ if 0<=age<=5: #Bébé 0
     for item in content:
         if item[2]<=0:
             print(f"{item[0]} de {item[1]}")
+        else:
+            print(f"{item[0]}")    
 elif 6<=age<=12: #Enfant 1
     print("Bienvenue dans l'interface enfant !")
     for item in content:
